@@ -232,7 +232,7 @@
 		</div>
 		<div region="center">
 			<div id="tt" class="easyui-tabs" fit="true" border="false" plain="true">
-				<div title="welcome" href="{{ url('/') }}" class="content-doc"></div>
+				<div title="welcome" href="{{ url('/welcome') }}" class="content-doc"></div>
 			</div>
 		</div>
 	</body>

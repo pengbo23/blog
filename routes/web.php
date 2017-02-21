@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('manager.index');
 });
+Route::get('/welcome', function (){
+    return view('welcome');
+});
 
 Auth::routes();
 
